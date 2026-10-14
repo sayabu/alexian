@@ -1670,3 +1670,9 @@ li {
 .campus-intro .hero-copy{margin-top:0;max-width:520px}
 @media(max-width:900px){.campus-hero .approved-image{margin:-25px -20px -8px}}
 @media(max-width:650px){.campus-hero{padding:28px 15px 0}.campus-hero h1{font-size:clamp(32px,8.7vw,54px)}.campus-hero .eyebrow{font-size:8px;letter-spacing:1px}.campus-hero .approved-image{margin:-5px -15px 0}.campus-intro{margin-top:30px;gap:22px}.campus-intro h2{font-size:32px}}
+
+/* Transparent editorial portraits keep their complete square composition. */
+.story-grid .approved-image.compact { background: transparent; aspect-ratio: 1; }
+.story-grid .approved-image.compact img { object-fit: contain; }
+.account .approved-image { max-width: 100%; }
+.account .approved-image img { object-fit: contain; }

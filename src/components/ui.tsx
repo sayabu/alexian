@@ -45,6 +45,7 @@ export function Placeholder({
         <Image
           src={asset.src}
           alt={asset.alt}
+          sizes={compact ? "(max-width: 650px) 100vw, 33vw" : "(max-width: 650px) 100vw, 60vw"}
           width={asset.ratio === "16:9" ? 1920 : 1200}
           height={asset.ratio === "16:9" ? 1080 : 1200}
         />

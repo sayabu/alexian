@@ -27,7 +27,7 @@ export default function Human() {
       <div className="notice">
         These are anonymous, unverified firsthand reports from the supplied
         research compilation. They are not accounts from Ascension Alexian
-        Brothers Medical Center. Original post links remain to be verified.
+        Brothers Medical Center. Original post links remain to be verified. The AI-generated illustrations depict fictional people, not the individuals described in these accounts.
       </div>
       <div className="account-list">
         {[
